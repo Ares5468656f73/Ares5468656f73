@@ -1,0 +1,42 @@
+/* Estilos basados en el tema Tokyo Night Storm */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #24283b; /* Fondo oscuro del tema */
+    color: #c0caf5; /* Color claro del texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #1a1b26; /* Fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor de la imagen */
+.image-container {
+    margin-right: 20px;
+}
+
+.ares-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Imagen redondeada */
+    border: 3px solid #7aa2f7; /* Borde azul claro */
+}
+
+/* Contenedor de texto */
+.text-container h1 {
+    font-size: 2.5rem;
+    color: #7aa2f7; /* Azul claro */
+    margin: 0;
+}
